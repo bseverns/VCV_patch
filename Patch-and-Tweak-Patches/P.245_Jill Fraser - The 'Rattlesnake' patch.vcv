@@ -1,0 +1,480 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 25,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 48,
+      "rightModuleId": 47,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "offset": 842018352,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        46,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 89,
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 45,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 53,
+      "rightModuleId": 46,
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        52,
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 45,
+      "text": "Yellow - audio\n\n\n\n\nGray - 1V/oct pitch control\n         voltage\n\n\n\nBlue - all other control voltages\n\n\n\n\nRed - triggers and gates\n\n\n\n\nGreen - master clocks",
+      "pos": [
+        60,
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 25,
+      "rightModuleId": 49,
+      "text": "Don't forget to choose your audio device and unmute the mixer.\n\nList of used module collections:\n--------------------------------\n- VCV\n- BogAudio\n- Befaco\n\nHave fun!",
+      "pos": [
+        56,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.909090936
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.909090936
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 25,
+      "pos": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 47,
+      "pos": [
+        72,
+        0
+      ]
+    },
+    {
+      "id": 53,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "BlankRimbaud",
+      "params": [],
+      "rightModuleId": 45,
+      "pos": [
+        42,
+        1
+      ]
+    },
+    {
+      "id": 89,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.582000017
+        },
+        {
+          "id": 3,
+          "value": 0.94200021
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 183,
+      "rightModuleId": 37,
+      "pos": [
+        19,
+        0
+      ]
+    },
+    {
+      "id": 174,
+      "plugin": "Befaco",
+      "version": "1.0.0",
+      "model": "Rampage",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.531000137
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.516000211
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 185,
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 183,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Noise",
+      "params": [],
+      "leftModuleId": 184,
+      "rightModuleId": 89,
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 184,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 183,
+      "text": "Jill Fraser - The 'Rattlesnake' patch, P.245\n--------------------------------\n\n\"This is a very basic patch that in my mind I think of as 'the rattlesnake.' I've used it in a million different ways - most having absolutely nothing to do with rattlesnakes. The idea is that you have two Universal Slope Generators - one is cycling itself with a fast attack and variable decay. The other is set with a slow attack and decay, and you use it to shape the filter, control the speed of the first USG, and provide the overall envelope (to the VCA). White noise is the audio source.\"",
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 185,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 174,
+      "text": "The two Universal Slope Generators are coming from Rampage (Befaco) and in order to start this patch you will need to trigger the left Slope Generator (A) so it will start cycling itself. Then you can trigger the right Slope Generator (B) to trigger the sound. ",
+      "pos": [
+        0,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 127,
+      "outputModuleId": 45,
+      "outputId": 0,
+      "inputModuleId": 45,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 45,
+      "outputId": 2,
+      "inputModuleId": 45,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 45,
+      "outputId": 4,
+      "inputModuleId": 45,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 130,
+      "outputModuleId": 45,
+      "outputId": 6,
+      "inputModuleId": 45,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 131,
+      "outputModuleId": 45,
+      "outputId": 8,
+      "inputModuleId": 45,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 133,
+      "outputModuleId": 48,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 185,
+      "outputModuleId": 183,
+      "outputId": 0,
+      "inputModuleId": 89,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 186,
+      "outputModuleId": 89,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 187,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 188,
+      "outputModuleId": 174,
+      "outputId": 6,
+      "inputModuleId": 89,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 189,
+      "outputModuleId": 174,
+      "outputId": 7,
+      "inputModuleId": 37,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 190,
+      "outputModuleId": 174,
+      "outputId": 7,
+      "inputModuleId": 174,
+      "inputId": 6,
+      "color": "#0986ad"
+    }
+  ]
+}

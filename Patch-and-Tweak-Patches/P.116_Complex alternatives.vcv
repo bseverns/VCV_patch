@@ -1,0 +1,680 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 25,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 48,
+      "rightModuleId": 47,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        73,
+        0
+      ]
+    },
+    {
+      "id": 35,
+      "plugin": "Autodafe",
+      "version": "1.0.1",
+      "model": "Multiple18",
+      "params": [],
+      "leftModuleId": 97,
+      "rightModuleId": 41,
+      "pos": [
+        52,
+        1
+      ]
+    },
+    {
+      "id": 37,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 114,
+      "rightModuleId": 115,
+      "pos": [
+        32,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 35,
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "id": 45,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 51,
+      "rightModuleId": 46,
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        79,
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 45,
+      "text": "Yellow - audio\n\n\n\n\nGray - 1V/oct pitch control\n         voltage\n\n\n\nBlue - all other control voltages\n\n\n\n\nRed - triggers and gates\n\n\n\n\nGreen - master clocks",
+      "pos": [
+        87,
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 25,
+      "rightModuleId": 49,
+      "text": "Don't forget to choose your audio device and unmute the mixer.\n\nList of used module collections:\n--------------------------------\n- VCV\n- BogAudio\n- AutoDafe\n- Impromptu\n- Audible Instruments\n\nHave fun!",
+      "pos": [
+        83,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.909090936
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.909090936
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 116,
+      "rightModuleId": 25,
+      "pos": [
+        58,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.0",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 47,
+      "pos": [
+        99,
+        0
+      ]
+    },
+    {
+      "id": 51,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.0",
+      "model": "BlankBenders",
+      "params": [],
+      "rightModuleId": 45,
+      "pos": [
+        67,
+        1
+      ]
+    },
+    {
+      "id": 97,
+      "plugin": "ImpromptuModular",
+      "version": "1.1.0",
+      "model": "Twelve-Key",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 118,
+      "rightModuleId": 35,
+      "data": {
+        "panelTheme": 0,
+        "octave": 4,
+        "cv": 0.333333343,
+        "vel": 0.487388372,
+        "maxVel": 10.0,
+        "stateInternal": true,
+        "invertVel": false,
+        "linkVelSettings": false
+      },
+      "pos": [
+        32,
+        1
+      ]
+    },
+    {
+      "id": 114,
+      "plugin": "AudibleInstruments",
+      "version": "1.0.0",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.252000004
+        },
+        {
+          "id": 1,
+          "value": 0.45600003
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.640999794
+        },
+        {
+          "id": 4,
+          "value": 0.0899999961
+        },
+        {
+          "id": 5,
+          "value": 0.372499973
+        },
+        {
+          "id": 6,
+          "value": 0.0660000145
+        }
+      ],
+      "leftModuleId": 119,
+      "rightModuleId": 37,
+      "data": {
+        "settings": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 115,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-FMOp",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.141421005
+        },
+        {
+          "id": 3,
+          "value": 0.316229999
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.316229999
+        },
+        {
+          "id": 6,
+          "value": 0.226500049
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 37,
+      "rightModuleId": 116,
+      "data": {
+        "linearLevel": false
+      },
+      "pos": [
+        35,
+        0
+      ]
+    },
+    {
+      "id": 116,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 16.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 115,
+      "rightModuleId": 48,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 117,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 118,
+      "text": "Complex alternatives, P.116\n---------------------------\n\nA cheater's complex oscillator.\nChris likes to use the following patch to create a simple complex oscillator with a pair of common digital VCOs:\nA Mutable Instruments Braids in FOLD mode serves as the modulator, and an Expert Sleepers Disting mk1 or mk2 set to algorithm 4C (a through-zero linear FM oscillator with a very pure sine wave) works as the carrier. \n",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 118,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 117,
+      "rightModuleId": 97,
+      "text": "The Braids is patched through a VCA to input Y on the Disting. Instead of patching the Disting into a waveshaper module, Timbre and Color on the Braids acts as the waveshaper - in this case, creating a more or less complex waveform to modulate the Disting, with its own depth courtesy of the Braids' Timbre and Color controls. \n",
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 119,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 114,
+      "text": "Braids is available in VCV Rack, but the FM-OP from BogAudio is acting as the Disting in this case since it has a through-zero linear FM input and a very pure sine wave.  \n",
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 127,
+      "outputModuleId": 45,
+      "outputId": 0,
+      "inputModuleId": 45,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 45,
+      "outputId": 2,
+      "inputModuleId": 45,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 45,
+      "outputId": 4,
+      "inputModuleId": 45,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 130,
+      "outputModuleId": 45,
+      "outputId": 6,
+      "inputModuleId": 45,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 131,
+      "outputModuleId": 45,
+      "outputId": 8,
+      "inputModuleId": 45,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 133,
+      "outputModuleId": 48,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 178,
+      "outputModuleId": 97,
+      "outputId": 1,
+      "inputModuleId": 35,
+      "inputId": 0,
+      "color": "#707070"
+    },
+    {
+      "id": 179,
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 114,
+      "inputId": 1,
+      "color": "#707070"
+    },
+    {
+      "id": 180,
+      "outputModuleId": 35,
+      "outputId": 1,
+      "inputModuleId": 115,
+      "inputId": 4,
+      "color": "#707070"
+    },
+    {
+      "id": 183,
+      "outputModuleId": 114,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 184,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 115,
+      "inputId": 6,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 185,
+      "outputModuleId": 97,
+      "outputId": 0,
+      "inputModuleId": 41,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 186,
+      "outputModuleId": 41,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 187,
+      "outputModuleId": 115,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 188,
+      "outputModuleId": 115,
+      "outputId": 0,
+      "inputModuleId": 116,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 189,
+      "outputModuleId": 41,
+      "outputId": 0,
+      "inputModuleId": 114,
+      "inputId": 3,
+      "color": "#0986ad"
+    }
+  ]
+}

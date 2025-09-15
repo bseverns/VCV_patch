@@ -1,0 +1,970 @@
+{
+  "version": "0.6.2b",
+  "modules": [
+    {
+      "plugin": "Core",
+      "version": "0.6.2b",
+      "model": "QuadMIDIToCVInterface",
+      "params": [],
+      "data": {
+        "midi": {
+          "driver": 1,
+          "deviceName": "IAC Driver Bus 1",
+          "channel": -1
+        },
+        "polyMode": 2
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.2b",
+      "model": "QuadMIDIToCVInterface",
+      "params": [],
+      "data": {
+        "midi": {
+          "driver": 1,
+          "deviceName": "IAC Driver Bus 2",
+          "channel": -1
+        },
+        "polyMode": 2
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.2b",
+      "model": "AudioInterface",
+      "params": [],
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "Apple Inc.: Built-in Output",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "plugin": "SonusModular",
+      "version": "0.6.1",
+      "model": "Osculum",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 2.12099957
+        }
+      ],
+      "pos": [
+        15,
+        1
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.0",
+      "model": "Veils",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.503499925
+        },
+        {
+          "paramId": 1,
+          "value": 0.494499862
+        },
+        {
+          "paramId": 2,
+          "value": 0.497500002
+        },
+        {
+          "paramId": 3,
+          "value": 0.500500143
+        },
+        {
+          "paramId": 4,
+          "value": 0.900999904
+        },
+        {
+          "paramId": 5,
+          "value": 0.915999949
+        },
+        {
+          "paramId": 6,
+          "value": 0.903999865
+        },
+        {
+          "paramId": 7,
+          "value": 0.844000161
+        }
+      ],
+      "pos": [
+        35,
+        1
+      ]
+    },
+    {
+      "plugin": "Core",
+      "version": "0.6.2b",
+      "model": "QuadMIDIToCVInterface",
+      "params": [],
+      "data": {
+        "midi": {
+          "driver": 1,
+          "deviceName": "IAC Driver Bus 3",
+          "channel": -1
+        },
+        "polyMode": 2
+      },
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "Mixer",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.354000032
+        },
+        {
+          "paramId": 2,
+          "value": 0.319500029
+        },
+        {
+          "paramId": 3,
+          "value": 0.755999923
+        }
+      ],
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "plugin": "Befaco",
+      "version": "0.6.0",
+      "model": "EvenVCO",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.26700044
+        },
+        {
+          "paramId": 2,
+          "value": -0.560000181
+        }
+      ],
+      "pos": [
+        21,
+        1
+      ]
+    },
+    {
+      "plugin": "AS",
+      "version": "0.6.9",
+      "model": "PhaserFx",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.40749985
+        },
+        {
+          "paramId": 1,
+          "value": 0.607050598
+        },
+        {
+          "paramId": 2,
+          "value": 0.717999756
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        61,
+        1
+      ]
+    },
+    {
+      "plugin": "AS",
+      "version": "0.6.9",
+      "model": "KillGate",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        76,
+        1
+      ]
+    },
+    {
+      "plugin": "Hora-ProcessorsFree",
+      "version": "0.6.0",
+      "model": "Delay",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.62052983
+        },
+        {
+          "paramId": 1,
+          "value": 0.651000082
+        },
+        {
+          "paramId": 2,
+          "value": 1.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.502499938
+        },
+        {
+          "paramId": 4,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        53,
+        1
+      ]
+    },
+    {
+      "plugin": "JW-Modules",
+      "version": "0.6.2",
+      "model": "Quantizer",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 7.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        }
+      ],
+      "data": {},
+      "pos": [
+        29,
+        1
+      ]
+    },
+    {
+      "plugin": "mscHack",
+      "version": "0.6.2",
+      "model": "Mix_1x4_Stereo",
+      "params": [
+        {
+          "paramId": 1,
+          "value": 0.298997641
+        },
+        {
+          "paramId": 5,
+          "value": 0.0109999906
+        },
+        {
+          "paramId": 20,
+          "value": 0.454999864
+        },
+        {
+          "paramId": 24,
+          "value": 0.399499923
+        },
+        {
+          "paramId": 28,
+          "value": 0.332000166
+        },
+        {
+          "paramId": 2,
+          "value": 0.352998644
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        },
+        {
+          "paramId": 21,
+          "value": 0.579500318
+        },
+        {
+          "paramId": 25,
+          "value": 0.39650014
+        },
+        {
+          "paramId": 29,
+          "value": 0.307500213
+        },
+        {
+          "paramId": 3,
+          "value": 0.5819996
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        },
+        {
+          "paramId": 22,
+          "value": 0.5
+        },
+        {
+          "paramId": 26,
+          "value": 0.5
+        },
+        {
+          "paramId": 30,
+          "value": 0.5
+        },
+        {
+          "paramId": 4,
+          "value": 0.603000045
+        },
+        {
+          "paramId": 8,
+          "value": 0.0
+        },
+        {
+          "paramId": 23,
+          "value": 0.5
+        },
+        {
+          "paramId": 27,
+          "value": 0.5
+        },
+        {
+          "paramId": 31,
+          "value": 0.5
+        },
+        {
+          "paramId": 10,
+          "value": 0.0
+        },
+        {
+          "paramId": 32,
+          "value": 0.0
+        },
+        {
+          "paramId": 34,
+          "value": 0.0
+        },
+        {
+          "paramId": 33,
+          "value": 0.0
+        },
+        {
+          "paramId": 35,
+          "value": 0.0
+        },
+        {
+          "paramId": 0,
+          "value": 0.559998751
+        },
+        {
+          "paramId": 40,
+          "value": 0.0
+        },
+        {
+          "paramId": 41,
+          "value": 0.0
+        },
+        {
+          "paramId": 42,
+          "value": 0.0
+        },
+        {
+          "paramId": 43,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "Mix_1x4_Stereo_channel_mutes": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "Mix_1x4_Stereo_channel_solos": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "Mix_1x4_Stereo_group_mutes": [
+          0
+        ],
+        "Mix_1x4_Stereo_group_AUX_prefade_states": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        48,
+        0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "version": "0.6.3",
+      "model": "MentalFold",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.751000047
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.216999903
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        33,
+        1
+      ]
+    },
+    {
+      "plugin": "BaconMusic",
+      "version": "0.6.2",
+      "model": "Bitulator",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.86349988
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 11.4639997
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 10.0
+        }
+      ],
+      "pos": [
+        47,
+        1
+      ]
+    },
+    {
+      "plugin": "Bogaudio",
+      "version": "0.6.7",
+      "model": "Bogaudio-Additator",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.991499364
+        },
+        {
+          "paramId": 1,
+          "value": 36.0
+        },
+        {
+          "paramId": 10,
+          "value": 0.451999933
+        },
+        {
+          "paramId": 2,
+          "value": 1.45899844
+        },
+        {
+          "paramId": 3,
+          "value": 0.0326700173
+        },
+        {
+          "paramId": 4,
+          "value": -9.77888703e-9
+        },
+        {
+          "paramId": 5,
+          "value": 3.04200172
+        },
+        {
+          "paramId": 6,
+          "value": 0.982000351
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        },
+        {
+          "paramId": 8,
+          "value": 1.10259974
+        },
+        {
+          "paramId": 9,
+          "value": 2.0
+        }
+      ],
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "plugin": "cf",
+      "version": "0.6.0",
+      "model": "PLAYER",
+      "params": [
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.0
+        },
+        {
+          "paramId": 8,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        },
+        {
+          "paramId": 9,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lastPath": "/Users/bseverns/Downloads/spot_cinisello_festival_def.wav",
+        "oscstate": 1
+      },
+      "pos": [
+        67,
+        1
+      ]
+    },
+    {
+      "plugin": "BaconMusic",
+      "version": "0.6.2",
+      "model": "Bitulator",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.316000015
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 14.3410015
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 2.10249877
+        }
+      ],
+      "pos": [
+        69,
+        0
+      ]
+    },
+    {
+      "plugin": "BaconMusic",
+      "version": "0.6.2",
+      "model": "Bitulator",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 16.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 2.23750019
+        }
+      ],
+      "pos": [
+        75,
+        0
+      ]
+    },
+    {
+      "plugin": "JW-Modules",
+      "version": "0.6.2",
+      "model": "Quantizer",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 7.0
+        },
+        {
+          "paramId": 1,
+          "value": 14.0
+        }
+      ],
+      "data": {},
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "plugin": "JW-Modules",
+      "version": "0.6.2",
+      "model": "Quantizer",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 7.0
+        },
+        {
+          "paramId": 1,
+          "value": 14.0
+        }
+      ],
+      "data": {},
+      "pos": [
+        44,
+        0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 0
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 6,
+      "inputId": 2
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 4,
+      "outputId": 3,
+      "inputModuleId": 13,
+      "inputId": 3
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 1
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 7,
+      "outputId": 4,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 3
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 1,
+      "outputId": 4,
+      "inputModuleId": 4,
+      "inputId": 4
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 1,
+      "outputId": 7,
+      "inputModuleId": 4,
+      "inputId": 5
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 3
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 10,
+      "outputId": 2,
+      "inputModuleId": 4,
+      "inputId": 3
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 2
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 1
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 4
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 0
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 1,
+      "outputId": 6,
+      "inputModuleId": 4,
+      "inputId": 6
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 1,
+      "outputId": 5,
+      "inputModuleId": 4,
+      "inputId": 7
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 1
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 18,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 17,
+      "inputId": 0
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 4,
+      "outputId": 1,
+      "inputModuleId": 13,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 1
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 13,
+      "outputId": 1,
+      "inputModuleId": 6,
+      "inputId": 3
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 2
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 2
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 20,
+      "inputId": 2
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 0,
+      "outputId": 0,
+      "inputModuleId": 3,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 20,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 3,
+      "outputId": 2,
+      "inputModuleId": 11,
+      "inputId": 2
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 9,
+      "inputId": 3
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 1,
+      "outputId": 4,
+      "inputModuleId": 9,
+      "inputId": 2
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 1,
+      "outputId": 4,
+      "inputModuleId": 9,
+      "inputId": 5
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 25,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 48,
+      "rightModuleId": 47,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "offset": 1136230629,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 512
+        }
+      },
+      "pos": [
+        56,
+        0
+      ]
+    },
+    {
+      "id": 45,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 52,
+      "rightModuleId": 46,
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        62,
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 45,
+      "text": "Yellow - audio\n\n\n\n\nGray - 1V/oct pitch control\n         voltage\n\n\n\nBlue - all other control voltages\n\n\n\n\nRed - triggers and gates\n\n\n\n\nGreen - master clocks",
+      "pos": [
+        70,
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 25,
+      "rightModuleId": 49,
+      "text": "Don't forget to choose your audio device and unmute the mixer.\n\nList of used module collections:\n--------------------------------\n- VCV\n- BogAudio\n- AutoDafe\n- Vult\n- Valley\n\nHave fun!",
+      "pos": [
+        66,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": -0.323999971
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.372000009
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.909090936
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.909090936
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 25,
+      "pos": [
+        41,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 47,
+      "pos": [
+        82,
+        0
+      ]
+    },
+    {
+      "id": 52,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "BlankStarlight",
+      "params": [],
+      "rightModuleId": 45,
+      "pos": [
+        52,
+        1
+      ]
+    },
+    {
+      "id": 186,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Noise",
+      "params": [],
+      "leftModuleId": 190,
+      "rightModuleId": 192,
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 187,
+      "plugin": "Autodafe-DrumKit",
+      "version": "1.0.0",
+      "model": "DrumsKick",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 191,
+      "rightModuleId": 188,
+      "data": {
+        "sampletype": 2
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 188,
+      "plugin": "Autodafe-DrumKit",
+      "version": "1.0.0",
+      "model": "DrumsSnare",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 187,
+      "rightModuleId": 190,
+      "data": {
+        "sampletype": 1
+      },
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 190,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Bool",
+      "params": [],
+      "leftModuleId": 188,
+      "rightModuleId": 186,
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 191,
+      "plugin": "Valley",
+      "version": "1.0.1",
+      "model": "Topograph",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.405999988
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.708999932
+        },
+        {
+          "id": 6,
+          "value": 0.21649991
+        },
+        {
+          "id": 7,
+          "value": 0.169999942
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 187,
+      "data": {
+        "sequencerMode": 0,
+        "triggerOutputMode": 1,
+        "accOutputMode": 0,
+        "extClockResolution": 2,
+        "chaosKnobMode": 0,
+        "runMode": 0,
+        "panelStyle": 0,
+        "running": 1
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 192,
+      "plugin": "VultModulesFree",
+      "version": "1.1.0",
+      "model": "Julste",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 186,
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 193,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.68599999
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 195,
+      "pos": [
+        32,
+        1
+      ]
+    },
+    {
+      "id": 194,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 195,
+      "text": "Hit when the stars align, P.310\n--------------------------------\n\nSay you have a rhythm pattern generator with at least two outputs, for use with a kick and snare. Usually, these two sounds are triggered seperately from each other. But if you crank up the chaos or'fill' for one or both tracks, both sounds might be triggered at the same time. If you want a special third sound - such as a noise 'splash' - to also be triggered when both the kick and snare are hit together, use an AND function to create this special third trigger.",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 195,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 194,
+      "rightModuleId": 193,
+      "text": "QUIZ: What combination of logic functions would you use if you wanted to trigger only the noise splash when both outputs were high?",
+      "pos": [
+        16,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 127,
+      "outputModuleId": 45,
+      "outputId": 0,
+      "inputModuleId": 45,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 45,
+      "outputId": 2,
+      "inputModuleId": 45,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 45,
+      "outputId": 4,
+      "inputModuleId": 45,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 130,
+      "outputModuleId": 45,
+      "outputId": 6,
+      "inputModuleId": 45,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 131,
+      "outputModuleId": 45,
+      "outputId": 8,
+      "inputModuleId": 45,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 133,
+      "outputModuleId": 48,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 153,
+      "outputModuleId": 191,
+      "outputId": 0,
+      "inputModuleId": 190,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 154,
+      "outputModuleId": 191,
+      "outputId": 1,
+      "inputModuleId": 190,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 156,
+      "outputModuleId": 191,
+      "outputId": 1,
+      "inputModuleId": 188,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 157,
+      "outputModuleId": 186,
+      "outputId": 0,
+      "inputModuleId": 192,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 158,
+      "outputModuleId": 190,
+      "outputId": 0,
+      "inputModuleId": 193,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 159,
+      "outputModuleId": 193,
+      "outputId": 0,
+      "inputModuleId": 192,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 160,
+      "outputModuleId": 192,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 155,
+      "outputModuleId": 191,
+      "outputId": 0,
+      "inputModuleId": 187,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 161,
+      "outputModuleId": 187,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 162,
+      "outputModuleId": 188,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 5,
+      "color": "#c9b70e"
+    }
+  ]
+}

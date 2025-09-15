@@ -1,0 +1,694 @@
+{
+  "version": "0.6.2b",
+  "modules": [
+    {
+      "plugin": "Core",
+      "version": "0.6.2b",
+      "model": "AudioInterface",
+      "params": [],
+      "data": {
+        "audio": {
+          "driver": 5,
+          "deviceName": "Apple Inc.: Built-in Output",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "plugin": "mscHack",
+      "version": "0.6.3",
+      "model": "Dronez",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "m_Seed": [
+          406580410
+        ]
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "plugin": "AudibleInstruments",
+      "version": "0.6.3",
+      "model": "Branches",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0914999843
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.282000035
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "modes": [
+          false,
+          false
+        ]
+      },
+      "pos": [
+        15,
+        0
+      ]
+    },
+    {
+      "plugin": "Southpole",
+      "version": "0.6.0",
+      "model": "Splash",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": -43.5839958
+        },
+        {
+          "paramId": 4,
+          "value": -0.387000024
+        },
+        {
+          "paramId": 5,
+          "value": 0.504000008
+        },
+        {
+          "paramId": 6,
+          "value": 0.410999954
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "mode": 1,
+        "range": 1,
+        "sheep": false
+      },
+      "pos": [
+        32,
+        0
+      ]
+    },
+    {
+      "plugin": "cf",
+      "version": "0.6.8",
+      "model": "METRO",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 120.099998
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "onstate": 1
+      },
+      "pos": [
+        21,
+        0
+      ]
+    },
+    {
+      "plugin": "Bogaudio",
+      "version": "0.6.12",
+      "model": "Bogaudio-ShaperPlus",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.679623783
+        },
+        {
+          "paramId": 1,
+          "value": 0.905016482
+        },
+        {
+          "paramId": 2,
+          "value": 0.970149755
+        },
+        {
+          "paramId": 3,
+          "value": 0.7277174
+        },
+        {
+          "paramId": 4,
+          "value": 0.988990784
+        },
+        {
+          "paramId": 5,
+          "value": 0.904182851
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.575638533
+        },
+        {
+          "paramId": 8,
+          "value": 1.0
+        }
+      ],
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "plugin": "luckyxxl",
+      "version": "0.6.0",
+      "model": "Quantize",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        55,
+        0
+      ]
+    },
+    {
+      "plugin": "Bogaudio",
+      "version": "0.6.12",
+      "model": "Bogaudio-ShaperPlus",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.679623783
+        },
+        {
+          "paramId": 1,
+          "value": 0.905016482
+        },
+        {
+          "paramId": 2,
+          "value": 0.970149755
+        },
+        {
+          "paramId": 3,
+          "value": 0.7277174
+        },
+        {
+          "paramId": 4,
+          "value": 0.988990784
+        },
+        {
+          "paramId": 5,
+          "value": 0.904182851
+        },
+        {
+          "paramId": 6,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.575638533
+        },
+        {
+          "paramId": 8,
+          "value": 1.0
+        }
+      ],
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": true
+      },
+      "pos": [
+        40,
+        1
+      ]
+    },
+    {
+      "plugin": "luckyxxl",
+      "version": "0.6.0",
+      "model": "Quantize",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        }
+      ],
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "plugin": "Southpole",
+      "version": "0.6.0",
+      "model": "Splash",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": -16.3679962
+        },
+        {
+          "paramId": 4,
+          "value": 0.057751298
+        },
+        {
+          "paramId": 5,
+          "value": 0.249001384
+        },
+        {
+          "paramId": 6,
+          "value": 0.701186657
+        },
+        {
+          "paramId": 3,
+          "value": 6.52494812
+        }
+      ],
+      "data": {
+        "mode": 2,
+        "range": 0,
+        "sheep": false
+      },
+      "pos": [
+        32,
+        1
+      ]
+    },
+    {
+      "plugin": "LindenbergResearch",
+      "version": "0.6.4",
+      "model": "DIODE VCF",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.695499897
+        },
+        {
+          "paramId": 1,
+          "value": 0.194999859
+        },
+        {
+          "paramId": 2,
+          "value": 0.570000112
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.469800085
+        }
+      ],
+      "gestaltID": 1,
+      "gradient": true,
+      "patina": false,
+      "patina_a_x": -982.618835,
+      "patina_a_y": -169.541077,
+      "patina_b_x": -496.92041,
+      "patina_b_y": -70.6322174,
+      "pos": [
+        61,
+        1
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "version": "0.6.33",
+      "model": "DYNAMO",
+      "params": [
+        {
+          "paramId": 9,
+          "value": 0.0
+        },
+        {
+          "paramId": 8,
+          "value": 0.0
+        },
+        {
+          "paramId": 0,
+          "value": 0.191618085
+        },
+        {
+          "paramId": 2,
+          "value": 0.348054737
+        },
+        {
+          "paramId": 3,
+          "value": 5.74220848
+        },
+        {
+          "paramId": 5,
+          "value": 0.569845557
+        },
+        {
+          "paramId": 4,
+          "value": 0.286500126
+        },
+        {
+          "paramId": 1,
+          "value": 0.160250098
+        },
+        {
+          "paramId": 6,
+          "value": 1.18882
+        },
+        {
+          "paramId": 7,
+          "value": 1.44955063
+        },
+        {
+          "paramId": 12,
+          "value": 0.0
+        },
+        {
+          "paramId": 11,
+          "value": 0.0
+        },
+        {
+          "paramId": 10,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "m_bypass": false,
+        "m_show_info": false,
+        "m_limiting": true,
+        "m_ducking": false,
+        "m_brickwallducking": true
+      },
+      "pos": [
+        14,
+        1
+      ]
+    },
+    {
+      "plugin": "NYSTHI",
+      "version": "0.6.33",
+      "model": "Rodent V2",
+      "params": [
+        {
+          "paramId": 2,
+          "value": 0.391999841
+        },
+        {
+          "paramId": 5,
+          "value": 0.100000001
+        },
+        {
+          "paramId": 1,
+          "value": 0.358999729
+        },
+        {
+          "paramId": 4,
+          "value": 0.100000001
+        },
+        {
+          "paramId": 3,
+          "value": 1.33599961
+        },
+        {
+          "paramId": 6,
+          "value": 0.100000001
+        },
+        {
+          "paramId": 9,
+          "value": 0.0
+        },
+        {
+          "paramId": 7,
+          "value": 0.0
+        },
+        {
+          "paramId": 10,
+          "value": 0.0
+        },
+        {
+          "paramId": 8,
+          "value": 0.0
+        },
+        {
+          "paramId": 0,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "m_bypass": true,
+        "m_ruetz_value": true,
+        "m_turbo_value": true,
+        "m_tight_value": true,
+        "m_od_value": true
+      },
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "plugin": "LindenbergResearch",
+      "version": "0.6.4",
+      "model": "DIODE VCF",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.695499897
+        },
+        {
+          "paramId": 1,
+          "value": 0.194999859
+        },
+        {
+          "paramId": 2,
+          "value": 0.570000112
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 5,
+          "value": 0.469800085
+        }
+      ],
+      "gestaltID": 1,
+      "gradient": true,
+      "patina": false,
+      "patina_a_x": -982.618835,
+      "patina_a_y": -169.541077,
+      "patina_b_x": -496.92041,
+      "patina_b_y": -70.6322174,
+      "pos": [
+        61,
+        0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "color": "#0986ad",
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 1
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 3,
+      "outputId": 2,
+      "inputModuleId": 2,
+      "inputId": 2
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 3,
+      "inputId": 8
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 5,
+      "inputId": 1
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 0
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 7,
+      "inputId": 1
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 4,
+      "outputId": 2,
+      "inputModuleId": 9,
+      "inputId": 8
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 3
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 1
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 1
+    },
+    {
+      "color": "#0986ad",
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0
+    },
+    {
+      "color": "#c9b70e",
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "color": "#c91847",
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "color": "#0c8e15",
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 0
+    }
+  ]
+}

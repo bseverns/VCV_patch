@@ -1,0 +1,227 @@
+{
+  "version": "0.5.1",
+  "modules": [
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 5,
+        "device": 1,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "Autodafe-DrumKit",
+      "model": "Drums - Kick",
+      "pos": [
+        0.0,
+        380.0
+      ],
+      "params": [
+        0.0
+      ],
+      "data": {
+        "sampletype": 2
+      }
+    },
+    {
+      "plugin": "Autinn",
+      "model": "Sjip",
+      "pos": [
+        510.0,
+        0.0
+      ],
+      "params": [
+        2.231999397277832
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalMasterClock",
+      "pos": [
+        60.0,
+        380.0
+      ],
+      "params": [
+        120.01017761230469,
+        4.1059999465942383,
+        0.6795000433921814,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "run": [
+          1
+        ]
+      }
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalCartesian",
+      "pos": [
+        270.0,
+        0.0
+      ],
+      "params": [
+        0.40800002217292786,
+        0.0,
+        -1.4499999284744263,
+        0.0,
+        -0.39000031352043152,
+        0.0,
+        0.4500001072883606,
+        0.0,
+        0.0,
+        0.0,
+        1.5539999008178711,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "plugin": "mental",
+      "model": "MentalMasterClock",
+      "pos": [
+        180.0,
+        380.0
+      ],
+      "params": [
+        200.01026916503906,
+        4.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "data": {
+        "run": [
+          1
+        ]
+      }
+    },
+    {
+      "plugin": "Southpole-parasites",
+      "model": "Smoke",
+      "pos": [
+        180.0,
+        0.0
+      ],
+      "params": [
+        0.0,
+        0.0,
+        0.42806088924407959,
+        0.37926265597343445,
+        -0.63063353300094604,
+        0.47643119096755981,
+        0.61438173055648804,
+        0.30381768941879272,
+        0.29797622561454773,
+        0.37394258379936218,
+        0.50312751531600952,
+        0.39165264368057251
+      ],
+      "data": {
+        "playbackmode": 0,
+        "lofi": 0,
+        "mono": 0,
+        "freeze": 0,
+        "buffersize": 1,
+        "reverse": 0
+      }
+    },
+    {
+      "plugin": "squinkylabs-plug1",
+      "model": "squinkylabs-freqshifter",
+      "pos": [
+        300.0,
+        380.0
+      ],
+      "params": [
+        3.6000001430511475
+      ],
+      "data": {
+        "range": 0
+      }
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 4
+    },
+    {
+      "outputModuleId": 4,
+      "outputId": 5,
+      "inputModuleId": 2,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 11
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 7
+    },
+    {
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 2
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 25,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 48,
+      "rightModuleId": 47,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "offset": 1931485216,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 512
+        }
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 45,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 50,
+      "rightModuleId": 46,
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        46,
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 45,
+      "text": "Yellow - audio\n\n\n\n\nGray - 1V/oct pitch control\n         voltage\n\n\n\nBlue - all other control voltages\n\n\n\n\nRed - triggers and gates\n\n\n\n\nGreen - master clocks",
+      "pos": [
+        54,
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 25,
+      "rightModuleId": 49,
+      "text": "Don't forget to choose your audio device and unmute the mixer.\n\nList of used module collections:\n--------------------------------\n- VCV\n- BogAudio\n- Valley\n- Vult\n\nHave fun!",
+      "pos": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": -0.252000004
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.909090936
+        },
+        {
+          "id": 7,
+          "value": 0.254999965
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.909090936
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 25,
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 47,
+      "pos": [
+        66,
+        0
+      ]
+    },
+    {
+      "id": 50,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "BlankBarbieri",
+      "params": [],
+      "rightModuleId": 45,
+      "pos": [
+        34,
+        1
+      ]
+    },
+    {
+      "id": 89,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.59344244
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.625499249
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 193,
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 193,
+      "plugin": "Valley",
+      "version": "1.0.1",
+      "model": "Topograph",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.446500003
+        },
+        {
+          "id": 3,
+          "value": 0.72299999
+        },
+        {
+          "id": 4,
+          "value": 0.442499995
+        },
+        {
+          "id": 5,
+          "value": 0.640500009
+        },
+        {
+          "id": 6,
+          "value": 0.5
+        },
+        {
+          "id": 7,
+          "value": 0.5
+        },
+        {
+          "id": 8,
+          "value": 0.361999959
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 89,
+      "data": {
+        "sequencerMode": 0,
+        "triggerOutputMode": 0,
+        "accOutputMode": 0,
+        "extClockResolution": 2,
+        "chaosKnobMode": 0,
+        "runMode": 0,
+        "panelStyle": 0,
+        "running": 1
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 194,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.519745886
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.629999399
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 195,
+      "pos": [
+        24,
+        1
+      ]
+    },
+    {
+      "id": 195,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.120500006
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0329999998
+        }
+      ],
+      "leftModuleId": 196,
+      "rightModuleId": 194,
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 196,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 195,
+      "text": "Pinging filters for percussion, P.165\n--------------------------------\n\nA favorite trick is to patch a gate or trigger instead of an audio source to the input of a filter. If the resonance is turned up to the edge of self-oscillation, the voltage spike at the start of a trigger or gate will cause the filter to oscillate briefly and die away. Most filters are AC coupled, meaning the DC voltage offset of the gate going high will be ignored; if your filter is DC coupled, you might need to send it a very short trigger instead.",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 197,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 199,
+      "text": "This creates good electronic percussion sounds. The frequency of the oscillation is determined by the filter's cutoff frequency; patching a simple AD envelope to the cutoff will cause the pitch to fall over the life of the sound. Each filter responds differently to this trick; there may also be variation between a multimode filter's outputs. ",
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 198,
+      "plugin": "VultModulesFree",
+      "version": "1.1.0",
+      "model": "Tangents",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.254374951
+        },
+        {
+          "id": 1,
+          "value": 0.595499694
+        },
+        {
+          "id": 2,
+          "value": 0.444000006
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.600000024
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 199,
+      "pos": [
+        24,
+        2
+      ]
+    },
+    {
+      "id": 199,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.127499983
+        }
+      ],
+      "leftModuleId": 197,
+      "rightModuleId": 198,
+      "pos": [
+        16,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 127,
+      "outputModuleId": 45,
+      "outputId": 0,
+      "inputModuleId": 45,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 45,
+      "outputId": 2,
+      "inputModuleId": 45,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 45,
+      "outputId": 4,
+      "inputModuleId": 45,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 130,
+      "outputModuleId": 45,
+      "outputId": 6,
+      "inputModuleId": 45,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 131,
+      "outputModuleId": 45,
+      "outputId": 8,
+      "inputModuleId": 45,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 133,
+      "outputModuleId": 48,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 159,
+      "outputModuleId": 193,
+      "outputId": 0,
+      "inputModuleId": 89,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 160,
+      "outputModuleId": 193,
+      "outputId": 1,
+      "inputModuleId": 195,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 162,
+      "outputModuleId": 194,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 161,
+      "outputModuleId": 195,
+      "outputId": 0,
+      "inputModuleId": 194,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 158,
+      "outputModuleId": 89,
+      "outputId": 1,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 163,
+      "outputModuleId": 193,
+      "outputId": 2,
+      "inputModuleId": 198,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 164,
+      "outputModuleId": 198,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 8,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 165,
+      "outputModuleId": 199,
+      "outputId": 0,
+      "inputModuleId": 198,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 166,
+      "outputModuleId": 193,
+      "outputId": 2,
+      "inputModuleId": 199,
+      "inputId": 4,
+      "color": "#c91847"
+    }
+  ]
+}

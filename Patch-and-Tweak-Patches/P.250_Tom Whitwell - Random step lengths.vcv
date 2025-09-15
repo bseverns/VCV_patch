@@ -1,0 +1,819 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 25,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 48,
+      "rightModuleId": 47,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "offset": 1069024183,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "id": 36,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 88,
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 45,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 50,
+      "rightModuleId": 46,
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        70,
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 45,
+      "text": "Yellow - audio\n\n\n\n\nGray - 1V/oct pitch control\n         voltage\n\n\n\nBlue - all other control voltages\n\n\n\n\nRed - triggers and gates\n\n\n\n\nGreen - master clocks",
+      "pos": [
+        78,
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 25,
+      "rightModuleId": 49,
+      "text": "Don't forget to choose your audio device and unmute the mixer.\n\nList of used module collections:\n--------------------------------\n- VCV\n- BogAudio\n- Stellare\n- JW\n\nHave fun!",
+      "pos": [
+        74,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.909090936
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.909090936
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 25,
+      "pos": [
+        49,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 47,
+      "pos": [
+        90,
+        0
+      ]
+    },
+    {
+      "id": 50,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "BlankBarbieri",
+      "params": [],
+      "rightModuleId": 45,
+      "pos": [
+        58,
+        1
+      ]
+    },
+    {
+      "id": 88,
+      "plugin": "JW-Modules",
+      "version": "1.0.7",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 14.0
+        }
+      ],
+      "leftModuleId": 186,
+      "rightModuleId": 36,
+      "data": {},
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "id": 173,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.555000126
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 187,
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 186,
+      "plugin": "StellareModular",
+      "version": "1.0.0",
+      "model": "TuringMachine",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.292999983
+        },
+        {
+          "id": 1,
+          "value": 0.102499828
+        },
+        {
+          "id": 2,
+          "value": 0.128000006
+        },
+        {
+          "id": 3,
+          "value": 0.288499922
+        },
+        {
+          "id": 4,
+          "value": 0.0334999524
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 5.0
+        },
+        {
+          "id": 7,
+          "value": 0.133999974
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        }
+      ],
+      "rightModuleId": 88,
+      "data": {
+        "pulses_mode": 0
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 187,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 173,
+      "text": "Tom Whitwell - Random step lengths, P.250\n----------------------------\n\n1) Patch the main Turing CV output to the clock CV input (start with Scale set low).\n\n2) Patch the clock output to the Turing Machine clock in.\n\n3) Patch the Volts Expander CV output to the VCO.\n\nNow the main Turing pattern will set the step length, creating really wonky rhythms that lock and randomize. This works with any sequencer, not just a Turing Machine.",
+      "pos": [
+        26,
+        1
+      ]
+    },
+    {
+      "id": 188,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "SEQ3",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 8.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 1.005
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 3.22500038
+        },
+        {
+          "id": 8,
+          "value": 4.4550004
+        },
+        {
+          "id": 9,
+          "value": 0.975000024
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 2.84999967
+        },
+        {
+          "id": 12,
+          "value": 0.480000019
+        },
+        {
+          "id": 13,
+          "value": 0.99000001
+        },
+        {
+          "id": 14,
+          "value": 0.24000001
+        },
+        {
+          "id": 15,
+          "value": 0.210000008
+        },
+        {
+          "id": 16,
+          "value": 0.540000021
+        },
+        {
+          "id": 17,
+          "value": 0.150000006
+        },
+        {
+          "id": 18,
+          "value": 0.570000052
+        },
+        {
+          "id": 19,
+          "value": 0.285000026
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 192,
+      "rightModuleId": 190,
+      "data": {
+        "running": true,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "pos": [
+        16,
+        2
+      ]
+    },
+    {
+      "id": 189,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "LFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.555000126
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "pos": [
+        16,
+        3
+      ]
+    },
+    {
+      "id": 190,
+      "plugin": "JW-Modules",
+      "version": "1.0.7",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.0
+        },
+        {
+          "id": 1,
+          "value": 14.0
+        }
+      ],
+      "leftModuleId": 188,
+      "rightModuleId": 191,
+      "data": {},
+      "pos": [
+        38,
+        2
+      ]
+    },
+    {
+      "id": 191,
+      "plugin": "Fundamental",
+      "version": "1.1.1",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 190,
+      "pos": [
+        42,
+        2
+      ]
+    },
+    {
+      "id": 192,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 188,
+      "text": "Here is another example with a different sequencer, this time, with the SEQ-3 from VCV. Its first row is changing the rate of the LFO, which is in return, changing the rate of the sequence. Its second row is sending pitch information to the oscillator through a quantizer. \nMake sure to send the oscillator to the mixer. ",
+      "pos": [
+        0,
+        2
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 127,
+      "outputModuleId": 45,
+      "outputId": 0,
+      "inputModuleId": 45,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 45,
+      "outputId": 2,
+      "inputModuleId": 45,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 45,
+      "outputId": 4,
+      "inputModuleId": 45,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 130,
+      "outputModuleId": 45,
+      "outputId": 6,
+      "inputModuleId": 45,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 131,
+      "outputModuleId": 45,
+      "outputId": 8,
+      "inputModuleId": 45,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 133,
+      "outputModuleId": 48,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 191,
+      "outputModuleId": 173,
+      "outputId": 3,
+      "inputModuleId": 186,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 192,
+      "outputModuleId": 186,
+      "outputId": 14,
+      "inputModuleId": 173,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 193,
+      "outputModuleId": 186,
+      "outputId": 12,
+      "inputModuleId": 88,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 194,
+      "outputModuleId": 88,
+      "outputId": 0,
+      "inputModuleId": 36,
+      "inputId": 0,
+      "color": "#707070"
+    },
+    {
+      "id": 195,
+      "outputModuleId": 36,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 196,
+      "outputModuleId": 188,
+      "outputId": 1,
+      "inputModuleId": 189,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 197,
+      "outputModuleId": 189,
+      "outputId": 3,
+      "inputModuleId": 188,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 199,
+      "outputModuleId": 188,
+      "outputId": 2,
+      "inputModuleId": 190,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 200,
+      "outputModuleId": 190,
+      "outputId": 0,
+      "inputModuleId": 191,
+      "inputId": 0,
+      "color": "#707070"
+    }
+  ]
+}

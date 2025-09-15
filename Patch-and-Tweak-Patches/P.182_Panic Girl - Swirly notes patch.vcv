@@ -1,0 +1,846 @@
+{
+  "version": "1.1.3",
+  "modules": [
+    {
+      "id": 25,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 48,
+      "rightModuleId": 47,
+      "data": {
+        "audio": {
+          "driver": 8,
+          "offset": 1100557424,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        79,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 113,
+      "pos": [
+        60,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 117,
+      "pos": [
+        55,
+        1
+      ]
+    },
+    {
+      "id": 45,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "Mutes",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 51,
+      "rightModuleId": 46,
+      "data": {
+        "states": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ]
+      },
+      "pos": [
+        85,
+        1
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 45,
+      "text": "Yellow - audio\n\n\n\n\nGray - 1V/oct pitch control\n         voltage\n\n\n\nBlue - all other control voltages\n\n\n\n\nRed - triggers and gates\n\n\n\n\nGreen - master clocks",
+      "pos": [
+        93,
+        1
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 25,
+      "rightModuleId": 49,
+      "text": "Don't forget to choose your audio device and unmute the mixer.\n\nList of used module collections:\n--------------------------------\n- VCV\n- JW\n- BogAudio\n- AutoDafe\n- Audible Instruments\n\nHave fun!",
+      "pos": [
+        89,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "Bogaudio",
+      "version": "1.1.21",
+      "model": "Bogaudio-Mix4",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.909090936
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.909090936
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.909090936
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.909090936
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.909090936
+        },
+        {
+          "id": 13,
+          "value": 1.0
+        }
+      ],
+      "rightModuleId": 25,
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "id": 49,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 47,
+      "pos": [
+        105,
+        0
+      ]
+    },
+    {
+      "id": 51,
+      "plugin": "PatchAndTweak",
+      "version": "1.0.1",
+      "model": "BlankBenders",
+      "params": [],
+      "rightModuleId": 45,
+      "pos": [
+        73,
+        1
+      ]
+    },
+    {
+      "id": 112,
+      "plugin": "JW-Modules",
+      "version": "1.0.7",
+      "model": "GridSeq",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 5.71425438
+        },
+        {
+          "id": 4,
+          "value": 7.80892754
+        },
+        {
+          "id": 5,
+          "value": 0.883747935
+        },
+        {
+          "id": 6,
+          "value": 6.29933786
+        },
+        {
+          "id": 7,
+          "value": 9.03598499
+        },
+        {
+          "id": 8,
+          "value": 4.01484489
+        },
+        {
+          "id": 9,
+          "value": 3.72197914
+        },
+        {
+          "id": 10,
+          "value": 5.76078844
+        },
+        {
+          "id": 11,
+          "value": 6.29378033
+        },
+        {
+          "id": 12,
+          "value": 7.77721167
+        },
+        {
+          "id": 13,
+          "value": 5.95556641
+        },
+        {
+          "id": 14,
+          "value": 5.00893641
+        },
+        {
+          "id": 15,
+          "value": 0.618345737
+        },
+        {
+          "id": 16,
+          "value": 3.06919813
+        },
+        {
+          "id": 17,
+          "value": 9.71192837
+        },
+        {
+          "id": 18,
+          "value": 4.35049438
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 4.0
+        },
+        {
+          "id": 37,
+          "value": 9.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 2.0
+        }
+      ],
+      "rightModuleId": 113,
+      "data": {
+        "running": true,
+        "ignoreGateOnPitchOut": false,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "gateMode": 0
+      },
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 113,
+      "plugin": "AudibleInstruments",
+      "version": "1.0.0",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.609000146
+        }
+      ],
+      "leftModuleId": 112,
+      "rightModuleId": 37,
+      "data": {
+        "settings": [
+          28,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        44,
+        0
+      ]
+    },
+    {
+      "id": 116,
+      "plugin": "JW-Modules",
+      "version": "1.0.7",
+      "model": "SimpleClock",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.423999935
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -2.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 123,
+      "rightModuleId": 117,
+      "data": {
+        "running": true
+      },
+      "pos": [
+        47,
+        1
+      ]
+    },
+    {
+      "id": 117,
+      "plugin": "Autodafe",
+      "version": "1.0.1",
+      "model": "ClockDivider",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 116,
+      "rightModuleId": 41,
+      "pos": [
+        51,
+        1
+      ]
+    },
+    {
+      "id": 121,
+      "plugin": "Fundamental",
+      "version": "1.2.0",
+      "model": "LFO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 3.15999913
+        },
+        {
+          "id": 3,
+          "value": 3.0
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        }
+      ],
+      "rightModuleId": 124,
+      "pos": [
+        33,
+        1
+      ]
+    },
+    {
+      "id": 123,
+      "plugin": "AudibleInstruments",
+      "version": "1.0.0",
+      "model": "Kinks",
+      "params": [],
+      "leftModuleId": 124,
+      "rightModuleId": 116,
+      "pos": [
+        43,
+        1
+      ]
+    },
+    {
+      "id": 124,
+      "plugin": "AudibleInstruments",
+      "version": "1.0.0",
+      "model": "Kinks",
+      "params": [],
+      "leftModuleId": 121,
+      "rightModuleId": 123,
+      "pos": [
+        39,
+        1
+      ]
+    },
+    {
+      "id": 125,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 126,
+      "text": "Panic Girl - Swirly notes patch, P.182\n---------------------------------\n\n\"The notes are set by the Make Noise René sequencer and then patched to the Proton 1 V/oct pitch input. The René itself receives its two clock input signals from the Make Noise Wogglebug, which is set up kind of fast, random, and swirly...\"\n\"The envelope for the Proton comes from a Doepfer A-140 (with slow time range, fast Attack, and Decay, and a medium Sustain) which is triggered by the Doepfer A-161 Clock Divider /2 output with the clock input at around 80 bpm.",
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 126,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 125,
+      "text": "\"By combining the straight rhythm from the clock divider with thr random, swirly tempo by the Wogglebug module, you get three to four notes swirling around the /2 grid. That makes the patch more playful and interesting to listen to, to my ears.\"",
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 127,
+      "plugin": "Core",
+      "version": "1.1.3",
+      "model": "Notes",
+      "params": [],
+      "text": "The GridSeq from JW is acting as René in this case, and Braids in PLUK mode as the Proton. Two Utilities modules (Kinks) from Audible Instruments are acting as the Wogglebug.  ",
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 127,
+      "outputModuleId": 45,
+      "outputId": 0,
+      "inputModuleId": 45,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 128,
+      "outputModuleId": 45,
+      "outputId": 2,
+      "inputModuleId": 45,
+      "inputId": 2,
+      "color": "#707070"
+    },
+    {
+      "id": 129,
+      "outputModuleId": 45,
+      "outputId": 4,
+      "inputModuleId": 45,
+      "inputId": 4,
+      "color": "#0986ad"
+    },
+    {
+      "id": 130,
+      "outputModuleId": 45,
+      "outputId": 6,
+      "inputModuleId": 45,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 131,
+      "outputModuleId": 45,
+      "outputId": 8,
+      "inputModuleId": 45,
+      "inputId": 8,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 132,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 133,
+      "outputModuleId": 48,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 134,
+      "outputModuleId": 112,
+      "outputId": 1,
+      "inputModuleId": 113,
+      "inputId": 1,
+      "color": "#707070"
+    },
+    {
+      "id": 136,
+      "outputModuleId": 41,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 139,
+      "outputModuleId": 116,
+      "outputId": 0,
+      "inputModuleId": 117,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 140,
+      "outputModuleId": 117,
+      "outputId": 1,
+      "inputModuleId": 41,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 146,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 147,
+      "outputModuleId": 112,
+      "outputId": 0,
+      "inputModuleId": 113,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 135,
+      "outputModuleId": 113,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 150,
+      "outputModuleId": 121,
+      "outputId": 0,
+      "inputModuleId": 124,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 151,
+      "outputModuleId": 121,
+      "outputId": 0,
+      "inputModuleId": 123,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 152,
+      "outputModuleId": 124,
+      "outputId": 6,
+      "inputModuleId": 112,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 153,
+      "outputModuleId": 123,
+      "outputId": 6,
+      "inputModuleId": 112,
+      "inputId": 5,
+      "color": "#0c8e15"
+    }
+  ]
+}

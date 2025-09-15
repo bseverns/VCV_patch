@@ -1,0 +1,92 @@
+{
+  "version": "0.5.1",
+  "modules": [
+    {
+      "plugin": "Bogaudio",
+      "model": "Bogaudio-ShaperPlus",
+      "pos": [
+        30.0,
+        0.0
+      ],
+      "params": [
+        1.0,
+        0.98449981212615967,
+        0.66500002145767212,
+        0.68350011110305786,
+        0.31750011444091797,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": true
+      }
+    },
+    {
+      "plugin": "Core",
+      "model": "AudioInterface",
+      "pos": [
+        0.0,
+        380.0
+      ],
+      "params": [],
+      "data": {
+        "driver": 5,
+        "device": -1,
+        "sampleRate": 44100.0,
+        "blockSize": 256
+      }
+    },
+    {
+      "plugin": "ESeries",
+      "model": "E340",
+      "pos": [
+        255.0,
+        0.0
+      ],
+      "params": [
+        -48.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "wires": [
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 1,
+      "inputId": 0
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 2
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 1,
+      "inputModuleId": 0,
+      "inputId": 1
+    },
+    {
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 0,
+      "inputId": 6
+    },
+    {
+      "outputModuleId": 0,
+      "outputId": 3,
+      "inputModuleId": 2,
+      "inputId": 1
+    }
+  ]
+}
